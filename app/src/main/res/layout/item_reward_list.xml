@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow_mine"
+    android:orientation="vertical"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/tv_contribution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:text="贡献值"
+        android:textColor="@color/c999"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:id="@+id/tv_contribute_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="15dp"
+        android:text="2018-11-16 16:40获奖"
+        android:textColor="@color/c999"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_contribution"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="9dp"
+        android:background="@color/diver_color" />
+
+    <ImageView
+        android:id="@+id/iv_contribute_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_line"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="TODO" android:src="@drawable/reward_icon" />
+
+    <TextView
+        android:id="@+id/tv_contribute_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_contribute_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="108dp"
+        android:text="500贡献值"
+        android:textColor="@color/black_text_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_reward_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_contribute_value"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/iv_contribute_icon"
+        android:text="已发放至账户中"
+        android:textColor="@color/c666"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

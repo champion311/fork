@@ -1,0 +1,50 @@
+{
+  "code": 100,
+  "msg": "",
+  "open": 0,
+  "data": [
+    {
+      "sortNum": 1,
+      "dicType": 14,
+      "dicCode": "101",
+      "dicValue": "一等奖",
+      "id": 2078
+    },
+    {
+      "sortNum": 2,
+      "dicType": 14,
+      "dicCode": "102",
+      "dicValue": "二等奖",
+      "id": 2079
+    },
+    {
+      "sortNum": 3,
+      "dicType": 14,
+      "dicCode": "103",
+      "dicValue": "三等奖",
+      "id": 2080
+    },
+    {
+      "sortNum": 4,
+      "dicType": 14,
+      "dicCode": "104",
+      "dicValue": "四等奖",
+      "id": 2081
+    },
+    {
+      "sortNum": 5,
+      "dicType": 14,
+      "dicCode": "105",
+      "dicValue": "五等奖",
+      "id": 2082
+    },
+    {
+      "sortNum": 6,
+      "dicType": 14,
+      "dicCode": "106",
+      "dicValue": "谢谢参与",
+      "id": 2083
+    }
+  ],
+  "reSign": 0
+}

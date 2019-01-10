@@ -1,0 +1,92 @@
+{
+  "code": 100,
+  "msg": "查询成功",
+  "open": 0,
+  "data": [
+    {
+      "phone": "13366100567",
+      "rewardTitle": "105",
+      "getType": 1,
+      "createTime": "1542334972861",
+      "id": 51
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334971836",
+      "id": 50
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334970622",
+      "id": 49
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "105",
+      "getType": 1,
+      "createTime": "1542334969667",
+      "id": 48
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334799697",
+      "id": 47
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334798704",
+      "id": 46
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334797551",
+      "id": 45
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334787270",
+      "id": 44
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334786058",
+      "id": 43
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334783514",
+      "id": 42
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542334765176",
+      "id": 41
+    },
+    {
+      "phone": "13366100567",
+      "rewardTitle": "106",
+      "getType": 1,
+      "createTime": "1542272723171",
+      "id": 40
+    }
+  ],
+  "reSign": 0
+}

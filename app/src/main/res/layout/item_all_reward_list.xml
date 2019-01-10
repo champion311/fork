@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pan_color_dark"
+    android:orientation="horizontal"
+    android:paddingLeft="28dp"
+    android:paddingTop="9dp"
+    android:paddingBottom="9dp">
+
+    <TextView
+        android:id="@+id/tv_reward_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="186****245    抽中"
+        android:textColor="@color/pan_black_text_color" />
+
+    <TextView
+        android:id="@+id/tv_reward_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:text="6.8%黄金加息劵"
+        android:textColor="@color/lucky_pan_bg" />
+
+</LinearLayout>

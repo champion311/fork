@@ -1,0 +1,334 @@
+[
+  {
+    "title": "1、如果您近期打算购车，哪些项目是您主要考虑的?",
+    "spanCount": 3,
+    "type": 0,
+    "questionId": 5,
+    "answerList": [
+      {
+        "text": "安全性能",
+        "id": 501,
+        "checked": false
+      },
+      {
+        "text": "操控性能",
+        "id": 502,
+        "checked": false
+      },
+      {
+        "text": "价格",
+        "id": 503,
+        "checked": false
+      },
+      {
+        "text": "内部空间",
+        "id": 504,
+        "checked": false
+      },
+      {
+        "text": "售后服务",
+        "id": 505,
+        "checked": false
+      },
+      {
+        "text": "智能系统",
+        "id": 506,
+        "checked": false
+      },
+      {
+        "text": "内饰风格",
+        "id": 507,
+        "checked": false
+      },
+      {
+        "text": "车辆外观",
+        "id": 508,
+        "checked": false
+      }
+    ]
+  },
+  {
+    "title": "2、请问在汽车内饰设计中您更倾向于哪种控制方式?",
+    "spanCount": 1,
+    "type": 0,
+    "questionId": 6,
+    "answerList": [
+      {
+        "text": "传统实体按键方式",
+        "id": 601,
+        "checked": false
+      },
+      {
+        "text": "触控面板震动反馈方式",
+        "id": 602,
+        "checked": false
+      },
+      {
+        "text": "触摸屏方式",
+        "id": 603,
+        "checked": false
+      },
+      {
+        "text": "语音控制方式",
+        "id": 604,
+        "checked": false
+      }
+    ]
+  },
+  {
+    "title": "3、请问您选择新能源汽车，您最希望后排空间具备哪种功能?",
+    "spanCount": 2,
+    "type": 0,
+    "questionId": 7,
+    "answerList": [
+      {
+        "text": "更大的储物功能",
+        "id": 701,
+        "checked": false
+      },
+      {
+        "text": "视听娱乐功能",
+        "id": 702,
+        "checked": false
+      },
+      {
+        "text": "座椅位置调节功能",
+        "id": 703,
+        "checked": false
+      },
+      {
+        "text": "小型办公功能区域",
+        "id": 704,
+        "checked": false
+      }
+    ]
+  },
+  {
+    "title": "4、请问在汽车内饰及座椅用料方面您更倾向于哪种材质?",
+    "spanCount": 1,
+    "type": 0,
+    "questionId": 8,
+    "answerList": [
+      {
+        "text": "传统皮质内饰",
+        "id": 801,
+        "checked": false
+      },
+      {
+        "text": "织物材质内饰",
+        "id": 802,
+        "checked": false
+      },
+      {
+        "text": "Alcantara拼接传统皮质内饰",
+        "id": 803,
+        "checked": false
+      },
+      {
+        "text": "传统皮质拼接织物材质内饰",
+        "id": 804,
+        "checked": false
+      }
+    ]
+  },
+  {
+    "title": "5、请问您对座椅功能方面，更希望具有哪种功能?",
+    "spanCount": 2,
+    "type": 0,
+    "questionId": 9,
+    "answerList": [
+      {
+        "text": "电加热功能",
+        "id": 901,
+        "checked": false
+      },
+      {
+        "text": "电制冷功能",
+        "id": 902,
+        "checked": false
+      },
+      {
+        "text": "座椅电通风功能",
+        "id": 903,
+        "checked": false
+      },
+      {
+        "text": "座椅按摩功能",
+        "id": 904,
+        "checked": false
+      }
+    ]
+  },
+  {
+    "title": "6、请问您选择女款定制车型，您希望得到哪种功能？",
+    "spanCount": 2,
+    "type": 1,
+    "questionId": 10,
+    "answerList": [
+      {
+        "text": "储衣柜",
+        "id": 1001,
+        "checked": false
+      },
+      {
+        "text": "储鞋柜",
+        "id": 1002,
+        "checked": false
+      },
+      {
+        "text": "小型梳妆台",
+        "id": 1003,
+        "checked": false
+      },
+      {
+        "text": "私密更衣空间",
+        "id": 1004,
+        "checked": false
+      },
+      {
+        "text": "雨伞收纳功能",
+        "id": 1005,
+        "checked": false
+      },
+      {
+        "text": "更大的化妆镜",
+        "id": 1006,
+        "checked": false
+      },
+      {
+        "text": "婴儿护理区",
+        "id": 1007,
+        "checked": false
+      }
+    ]
+  },
+  {
+    "title": "7、您最希望新能源汽车具有下列哪些功能？",
+    "spanCount": 2,
+    "type": 1,
+    "questionId": 11,
+    "answerList": [
+      {
+        "text": "GPS系统",
+        "id": 1101,
+        "checked": false
+      },
+      {
+        "text": "辅助停车功能",
+        "id": 1102,
+        "checked": false
+      },
+      {
+        "text": "汽车安全系统",
+        "id": 1103,
+        "checked": false
+      },
+      {
+        "text": "影音播放功能",
+        "id": 1104,
+        "checked": false
+      },
+      {
+        "text": "Wi-Fi网络连接",
+        "id": 1105,
+        "checked": false
+      },
+      {
+        "text": "人工智能系统",
+        "id": 1106,
+        "checked": false
+      },
+      {
+        "text": "手机交互APP功能",
+        "id": 1107,
+        "checked": false
+      },
+      {
+        "text": "无人驾驶",
+        "id": 1108,
+        "checked": false
+      }
+    ]
+  },
+  {
+    "title": "8、汽车场馆商务功能中，您最感兴趣哪几个？",
+    "spanCount": 1,
+    "type": 1,
+    "questionId": 12,
+    "answerList": [
+      {
+        "text": "使用大型会议室",
+        "id": 1201,
+        "checked": false
+      },
+      {
+        "text": "使用高端私密洽谈室",
+        "id": 1202,
+        "checked": false
+      },
+      {
+        "text": "个人及企业广告展示位",
+        "id": 1203,
+        "checked": false
+      },
+      {
+        "text": "定制高端商务餐饮",
+        "id": 1204,
+        "checked": false
+      },
+      {
+        "text": "健身区",
+        "id": 1205,
+        "checked": false
+      },
+      {
+        "text": "娱乐体验区",
+        "id": 1206,
+        "checked": false
+      },
+      {
+        "text": "私人休息区",
+        "id": 1207,
+        "checked": false
+      }
+    ]
+  },
+  {
+    "title": "9、对于国产的新能源中高端商务车，您期待其在驾驶性能上有哪些优势？",
+    "spanCount": 1,
+    "type": 1,
+    "questionId": 13,
+    "answerList": [
+      {
+        "text": "续航能力 公里数",
+        "id": 1301,
+        "checked": false
+      },
+      {
+        "text": "人工智能",
+        "id": 1302,
+        "checked": false
+      },
+      {
+        "text": "动力体验",
+        "id": 1303,
+        "checked": false
+      },
+      {
+        "text": "操作性强",
+        "id": 1304,
+        "checked": false
+      },
+      {
+        "text": "售后能力强",
+        "id": 1305,
+        "checked": false
+      },
+      {
+        "text": "拥有更强大的附加社交属性",
+        "id": 1306,
+        "checked": false
+      }
+    ]
+  }
+]

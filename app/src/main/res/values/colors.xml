@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="back_gray">#f0f2f5</color>
+    <color name="text_color">#ffa2a2a2</color>
+    <color name="black_text_color">#ff333333</color>
+    <color name="seleted_text_color">#ffd6b35b</color>
+    <color name="hint_text_color">#ffa2a2a2</color>
+    <color name="diver_color">#ffeeeeee</color>
+    <color name="get_verify_color">#ffd6b35b</color>
+    <color name="button_bg_color">#ffd6b35b</color>
+    <color name="c666">#ff666666</color>
+    <color name="c999">#ff999999</color>
+    <color name="common_bg_color">#f5f5f5</color>
+    <color name="red_alert_color">#fff95959</color>
+    <color name="hint_color">#ff999999</color>
+    <color name="cf3">#FFF3F3F3</color>
+    <color name="home_button_color">#9b8361</color>
+    <color name="cooper_bg">#ff889de6</color>
+    <color name="cooper_text_color">#ff657ac4</color>
+    <color name="base_222230">#222230</color>
+    <color name="base_697A9F">#697A9F</color>
+    <color name="base_B5B5B5">#B5B5B5</color>
+    <color name="base_f8f8f8">#f8f8f8</color>
+    <color name="base_f9f9f9">#f9f9f9</color>
+    <color name="base_DCDCDC">#DCDCDC</color>
+    <color name="base_F2F2F2">#F2F2F2</color>
+    <color name="base_D8D8D8">#D8D8D8</color>
+    <color name="home_page_color">#111113</color>
+    <color name="base_101012">#FF101012</color>
+    <color name="lucky_pan_bg">#FFDA4142</color>
+    <color name="pan_color_light">#FFFBDBCA</color>
+    <color name="pan_color_dark">#FFF6C3A6</color>
+    <color name="pan_outer_color">#FFEC6430</color>
+    <color name="pan_yellow_dot">#FFF9C73A</color>
+    <color name="pan_white_dot">#FFFAE0D4</color>
+    <color name="pan_text_color">#fffbdbca</color>
+    <color name="pan_black_text_color">#ff323333</color>
+    <color name="orange_color">#FFF29500</color>
+    <color name="light_orange">#fffce9b8</color>
+
+    <color name="leftColor">#EFCD77</color>
+    <color name="leftColorBottom">#D8B55D</color>
+    <color name="selectLeftColor">#1daf00</color>
+    <color name="xyColor">#999</color>
+    <color name="c111">#111111</color>
+    <color name="goods_count_color">#ffd2d2d2</color>
+    <color name="cededed">#ededed</color>
+    <color name="cd2d2d2">#d2d2d2</color>
+    <color name="default_address_text_color">#FFD6B35B</color>
+    <color name="default_address_bg_color">#FFEFE1BD</color>
+    <color name="home_text_color">#fff7d68c</color>
+    <color name="light_dark_color">#29292A</color>
+    <color name="show_more">#5682b2</color>
+
+
+</resources>

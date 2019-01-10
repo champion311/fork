@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="付款方式"
+        android:textColor="@color/c666"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/close_dialog_icon" />
+
+    <TextView
+        android:id="@+id/tv_jifen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_top"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/select_pay_method_bg"
+        android:paddingLeft="25dp"
+        android:paddingTop="9dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="9dp"
+        android:text="3500积分"
+        android:textColor="@color/seleted_text_color" />
+
+    <TextView
+        android:id="@+id/tv_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_top"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="59dp"
+        android:background="@drawable/select_pay_method_bg"
+        android:paddingLeft="25dp"
+        android:paddingTop="9dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="9dp"
+        android:text="3500积分"
+        android:textColor="@color/seleted_text_color" />
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/tv_jifen"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cart_button_bg"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

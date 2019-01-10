@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <include layout="@layout/item_dark_header" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_community_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/community_bg_small" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_invalid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="94dp"
+                    android:layout_marginRight="50dp"
+                    android:text="尊敬的MBC用户，由于您暂未购车尚不能进入社区管理平台，请您谅解！"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_back_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/common_button_bg"
+                    android:gravity="center"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="25dp"
+                    android:paddingBottom="10dp"
+                    android:text="返回"
+                    android:textColor="@color/seleted_text_color" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_insert_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="激活社区管理平台"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/tv_cellphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:text="手机号码：15810159436"
+                    android:textColor="@color/c666"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_invitor_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="推&#8194;荐&#8194;人：15810159436"
+                    android:textColor="@color/c666"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:text="密码设置（用于社区管理平台的登录）"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="57dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="38dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="密&#12288;&#12288;码:"
+                        android:textColor="@color/black_text_color"
+                        android:textSize="15sp" />
+
+                    <!--android:textCursorDrawable="@drawable/common_edit_bottom_line"-->
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_weight="1">
+
+                        <EditText
+                            android:id="@+id/ed_password"
+                            style="@style/CommonEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:hint="@string/hint_text_1"
+                            android:inputType="textPassword"
+                            android:maxLength="20"
+                            android:textColor="@color/black_text_color"
+                            android:textCursorDrawable="@null"
+                            android:textSize="15sp" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_below="@id/ed_password"
+                            android:layout_marginTop="7dp"
+                            android:background="@color/diver_color" />
+
+                    </RelativeLayout>
+
+                    <CheckBox
+                        android:id="@+id/cb_password_eye"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="16dp"
+                        android:button="@drawable/dark_eyes"
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="57dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="38dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/confirm_password_4_pos"
+                        android:textColor="@color/black_text_color" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_weight="1">
+
+
+                        <EditText
+                            android:id="@+id/ed_confirm_password"
+                            style="@style/CommonEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:drawableBottom="@drawable/edit_line"
+                            android:hint="@string/hint_text_1"
+                            android:inputType="textPassword"
+                            android:maxLength="20"
+                            android:textColor="@color/black_text_color"
+                            android:textColorHint="@color/hint_text_color"
+                            android:textCursorDrawable="@null"
+                            android:textSize="15sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_below="@id/ed_confirm_password"
+                            android:layout_marginTop="7dp"
+                            android:background="@color/diver_color" />
+
+                    </RelativeLayout>
+
+                    <CheckBox
+                        android:id="@+id/cb_confirm_password_eye"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="16dp"
+                        android:button="@drawable/dark_eyes" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_now"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="63dp"
+                    android:layout_marginRight="55dp"
+                    android:background="@drawable/commodity_bg2"
+                    android:gravity="center"
+                    android:text="激活"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_insert_commmunity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="94dp"
+                    android:text="社区管理平台"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="37dp"
+                    android:gravity="left"
+                    android:text="@string/enter_mbc_alert_text"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_enter_community"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="19dp"
+                    android:background="@drawable/common_button_bg"
+                    android:gravity="center"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="25dp"
+                    android:paddingBottom="10dp"
+                    android:text="进入社区"
+                    android:textColor="@color/seleted_text_color" />
+
+                <TextView
+                    android:id="@+id/tv_forget_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="35dp"
+                    android:text="忘记社区登录密码？"
+                    android:textColor="@color/seleted_text_color"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+</LinearLayout>

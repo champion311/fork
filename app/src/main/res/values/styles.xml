@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="PayRadioButton" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/pay_icon_selector</item>
+        <item name="android:width">19dp</item>
+        <item name="android:height">56dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="CommonRadioButton" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:drawableLeft">@drawable/radio_button_bg</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">@color/black_text_color</item>
+    </style>
+
+
+    <!-- 弹出框动画 由下至上 -->
+    <style name="DialogAnimMine" parent="@android:style/Animation.Dialog">
+        <item name="@android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="@android:windowExitAnimation">@anim/push_bottom_out</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+    <!--处理5.0以上边框的问题-->
+    <style name="CancelDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="TextViewStyle1">
+        <item name="android:textColor">@color/bottom_text_color</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">65dp</item>
+        <item name="android:background">@drawable/grid_item</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PraiseOrCommentAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/anim_praise_or_comment_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_praise_or_comment_out</item>
+    </style>
+
+    <style name="ClasschatTabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black_text_color</item>
+    </style>
+
+
+    <style name="LaunchStyle" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/spalsh_bg</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+
+    <style name="RechargeRadioButton" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">0dp</item>"0dp"
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/rechage_radio_button_bg</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">19dp</item>
+        <item name="android:paddingBottom">19dp</item>
+        <item name="android:textColor">@color/recharge_text_color</item>
+    </style>
+
+      <style name="CommonEditText" parent="Theme.AppCompat.Light">
+            <item name="colorControlNormal">@color/diver_color</item>
+            <item name="colorControlActivated">@color/diver_color</item>
+      </style>
+
+</resources>

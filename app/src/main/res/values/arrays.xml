@@ -1,0 +1,116 @@
+<resources>
+    <string-array name="grid_array">
+        <item>活动</item>
+        <item>签到</item>
+        <item>邀请有奖</item>
+        <item>会员中心</item>
+    </string-array>
+
+    <string-array name="counts">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>6个月</item>
+        <item>9个月</item>
+        <item>12个月</item>
+        <item>18个月</item>
+        <item>24个月</item>
+        <item>30个月</item>
+        <item>36个月</item>
+    </string-array>
+
+    <string-array name="moneys">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+    </string-array>
+
+    <string-array name="names">
+        <item>6\ts\t馆\t代\t金\t券</item>
+        <item>6\ts\t馆\t代\t金\t券</item>
+        <item>6\ts\t馆\t代\t金\t券</item>
+        <item>贡\t\t献\t\t值</item>
+        <item>贡\t\t献\t\t值</item>
+        <item>谢\t\t谢\t\t参\t\t与</item>
+
+    </string-array>
+
+    <string-array name="award_name">
+        <item>¥5000</item>
+        <item>¥2000</item>
+        <item>¥1000</item>
+        <item>500</item>
+        <item>100</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="icons">
+        <item>default_avater</item>
+        <item>default_avater</item>
+        <item>default_avater</item>
+        <item>default_avater</item>
+        <item>default_avater</item>
+        <item>default_avater</item>
+
+    </string-array>
+
+    <string-array name="level">
+        <item>游客</item>
+        <item>平民</item>
+        <item>男爵</item>
+        <item>子爵</item>
+        <item>伯爵</item>
+        <item>侯爵</item>
+        <item>公爵</item>
+        <item>王爵</item>
+    </string-array>
+
+    <string-array name="level_count">
+        <item>0</item>
+        <item>25000</item>
+        <item>250000</item>
+        <item>750000</item>
+        <item>1250000</item>
+        <item>1750000</item>
+        <item>2250000</item>
+        <item>无限</item>
+    </string-array>
+
+    <integer-array name="level_scale">
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>140</item>
+        <item>160</item>
+    </integer-array>
+
+    <string-array name="mall_order_cancel">
+        <item>信息填错</item>
+        <item>重复下单</item>
+        <item>不想买了</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="home_grid_icons">
+        <item>https://api.shosen.cn/app/img/btn1.png</item>
+        <item>https://api.shosen.cn/app/img/btn2.png</item>
+        <item>https://api.shosen.cn/app/img/btn3.png</item>
+        <item>https://api.shosen.cn/app/img/btn4.png</item>
+    </string-array>
+
+
+</resources>

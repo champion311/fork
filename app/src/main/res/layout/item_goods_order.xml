@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow_mine"
+    android:paddingBottom="20dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="2018年12月10日"
+            android:textColor="@color/c666"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:paddingRight="18dp">
+
+            <TextView
+                android:id="@+id/tv_order_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已完成"
+                android:textColor="@color/black_text_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iv_del"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:src="@drawable/del_icon" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/rl_top"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/diver_color" />
+
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="52dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/rl_top"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/default_place_holder" />
+
+
+    <TextView
+        android:id="@+id/tv_goods_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_top"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="15dp"
+        android:text="x1"
+        android:textColor="@color/black_text_color"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/tv_good_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/tv_goods_count"
+        android:layout_toRightOf="@id/iv_image"
+        android:text="车载导航系统"
+        android:textColor="@color/black_text_color"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_good_name"
+        android:layout_alignBottom="@id/iv_image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@id/iv_image"
+        android:text="¥1000"
+        android:textColor="@color/c666" />
+
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/common_dialog_confirm_bg"
+        android:gravity="center"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:text="继续支付"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_cancel_ordetail"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_alignTop="@id/tv_confirm"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/tv_confirm"
+        android:background="@drawable/common_dialog_cancel_bg"
+        android:gravity="center"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:text="确认离开"
+        android:textColor="@color/c999"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

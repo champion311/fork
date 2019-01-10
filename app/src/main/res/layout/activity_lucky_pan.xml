@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:luckpan="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lucky_pan_bg"
+    android:orientation="vertical"
+    tools:context=".ui.activity.LuckPanActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_top_header"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_centerVertical="true"
+        android:background="@color/base_101012"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:contentDescription="TODO"
+            android:paddingRight="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:id="@+id/tv_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginRight="16dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/lucky_pan_title" />
+
+            <TextView
+                android:id="@+id/tv_left_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/lucky_pan_header"
+                android:gravity="center_horizontal"
+                android:paddingTop="4dp"
+                android:text="剩余抽奖次数：0"
+                android:textColor="@color/pan_text_color"
+                android:textSize="14sp" />
+
+            <com.shosen.max.widget.lunckpan.LuckPanLayout
+                android:id="@+id/luckpan_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-4dp"
+                android:background="@android:color/transparent">
+
+                <com.shosen.max.widget.lunckpan.RotatePan
+                    android:id="@+id/rotatePan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    luckpan:icons="@array/icons"
+                    luckpan:names="@array/names"
+                    luckpan:pannum="6" />
+
+                <ImageView
+                    android:id="@+id/iv_go"
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:clickable="true"
+                    android:focusable="true" android:contentDescription="TODO" android:scaleType="centerCrop"
+                    android:src="@drawable/node"
+                    android:tag="startbtn" />
+
+            </com.shosen.max.widget.lunckpan.LuckPanLayout>
+
+
+            <TextView
+                android:id="@+id/tv_my_award"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="33dp"
+                android:text="查看我的奖品"
+                android:textColor="@color/pan_text_color"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/reward_name_list_bg"
+                android:paddingTop="44dp"
+                android:paddingBottom="5dp">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rc_reward_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/event_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/pan_list_bg"
+                android:lineSpacingExtra="5dp"
+                android:orientation="vertical"
+                android:paddingLeft="21dp"
+                android:paddingTop="44dp"
+                android:paddingRight="21dp"
+                android:text="@string/lucky_pan_intro"
+                android:textColor="@color/lucky_pan_bg"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_goods_bottom_details"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_mall"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="21dp">
+
+        <TextView
+            android:id="@+id/tv_mall_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="商城"
+            android:textColor="@color/black_text_color"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_mall_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/to_mall_icon"
+
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_shop_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp">
+
+        <!--android:drawableTop="@drawable/to_shopping_cart"-->
+        <!--android:drawablePadding="7dp"-->
+        <TextView
+            android:id="@+id/tv_shop_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="购物车"
+            android:textColor="@color/black_text_color"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_shop_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_shop_cart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/to_shopping_cart" />
+
+        <TextView
+            android:id="@+id/tv_shop_cart_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/tv_shop_cart"
+            android:text="23"
+            android:textColor="@color/red_alert_color"
+            android:textSize="9dp" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_add_shopping"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="23dp"
+        android:layout_weight="1"
+        android:background="@drawable/commodity_bg1"
+        android:gravity="center"
+        android:text="加入购物车"
+        android:textColor="@color/seleted_text_color"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_buy_now"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/commodity_bg2"
+        android:gravity="center"
+        android:text="立即购买"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

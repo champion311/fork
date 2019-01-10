@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_luckypan_bg"
+
+    android:paddingBottom="28dp">
+
+    <ImageView
+        android:id="@+id/star_icon_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:contentDescription="TODO" android:src="@drawable/star_coin_icon" />
+
+    <TextView
+        android:id="@+id/tv_luckpan_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/star_icon_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="恭喜您获得 500贡献值"
+        android:textColor="@color/black_text_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_luckpan_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_luckpan_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:text="奖励已发放至您的账户中"
+        android:textColor="@color/black_text_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_certain_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_luckpan_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/lucky_certain_bg"
+        android:gravity="center_horizontal"
+        android:paddingLeft="57dp"
+        android:paddingTop="10dp"
+        android:paddingRight="57dp"
+        android:paddingBottom="10dp"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>
