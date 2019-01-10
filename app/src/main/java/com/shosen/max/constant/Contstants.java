@@ -30,6 +30,11 @@ public class Contstants {
 
     public static final String HELP_IMAGE_URL = "https://api.shosen.cn/app/img/yeNote.png";
 
+    public static final String URL_1 = "https://mp.weixin.qq.com/s/dPpdgTCpQQRbziVVDqloHQ";
+
+    public static final String URL_2 = "https://mp.weixin.qq.com/s/fSyo96xIXwGzsHguZSb2Mg";
+
+
     //拍摄图片
     public static final int CAMERA_REQUEST_CODE = 500;
     @Deprecated

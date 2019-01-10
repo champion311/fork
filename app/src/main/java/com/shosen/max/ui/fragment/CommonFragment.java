@@ -134,7 +134,7 @@ public class CommonFragment extends BaseFragment {
                 tvHeadTitle.setText("MAX资讯");
             } else if ("2".equals(position)) {
                 mWebView.loadUrl(Contstants.SIXS_URL);
-                tvHeadTitle.setText("6s馆");
+                tvHeadTitle.setText("汽车馆");
             }
         }
 

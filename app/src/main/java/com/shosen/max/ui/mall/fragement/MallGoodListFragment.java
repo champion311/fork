@@ -64,7 +64,11 @@ public class MallGoodListFragment extends BaseFragment
 
     private GoodsOrderListAdapter mAdapter;
 
-
+    /**
+     *
+     * @param showType
+     * @return
+     */
     public static MallGoodListFragment newInstance(int showType) {
         Bundle bundle = new Bundle();
         bundle.putInt("showType", showType);

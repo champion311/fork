@@ -14,7 +14,7 @@ import com.shosen.max.others.span.GlideImageLoader;
 import com.shosen.max.receiver.JPushReceiver;
 import com.shosen.max.utils.LoginUtils;
 import com.shosen.max.utils.Utils;
-import com.squareup.leakcanary.LeakCanary;
+
 import com.tencent.bugly.crashreport.CrashReport;
 import com.tencent.tinker.entry.ApplicationLike;
 import com.tinkerpatch.sdk.TinkerPatch;
@@ -62,12 +62,12 @@ public class MaxApplication extends Application {
     }
 
     public void initLeakCanary() {
-        if (LeakCanary.isInAnalyzerProcess(this)) {
-            // This process is dedicated to LeakCanary for heap analysis.
-            // You should not init your app in this process.
-            return;
-        }
-        LeakCanary.install(this);
+//        if (LeakCanary.isInAnalyzerProcess(this)) {
+//            // This process is dedicated to LeakCanary for heap analysis.
+//            // You should not init your app in this process.
+//            return;
+//        }
+//        LeakCanary.install(this);
     }
 
     public void initJPUSH() {

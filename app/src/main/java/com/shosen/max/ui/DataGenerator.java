@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.shosen.max.R;
 import com.shosen.max.presenter.MyWalletPresenter;
+import com.shosen.max.ui.fragment.AutoMobileFragment;
 import com.shosen.max.ui.mall.fragement.MallGoodListFragment;
 import com.shosen.max.ui.mall.fragement.MallHomeFragment;
 import com.shosen.max.ui.circle.fragment.CircleFragment;
@@ -24,24 +25,29 @@ import com.shosen.max.ui.mall.fragement.MyWalletFragment;
 public class DataGenerator {
 
     public static final int[] mTabRes = {R.drawable.home_icon,
-            R.drawable.message_icon, R.drawable.mall_icon, R.drawable.nine_s_icon, R.drawable.mine_icon};
+            R.drawable.message_icon, R.drawable.nine_s_icon, R.drawable.mall_icon, R.drawable.mine_icon};
 
     public static final int[] mTabsPresssed = {R.drawable.home_select,
             R.drawable.message_select, R.drawable.charity_select, R.drawable.mine_select};
 
-    public static final String[] mTabTitle = {"首页", "圈子", "商城", "汽车馆", "我的"};
+    public static final String[] mTabTitle = {"首页", "圈子", "汽车馆", "商城", "我的"};
 
     public static final String[] MALL_TEXTS = {"全部", "待支付", "待收货", "已完成", "已取消"};
 
     public static final String[] WALLET_TEXT = {"余额明细", "积分明细"};
 
 
+    /**
+     * 首页fragments
+     * @param from
+     * @return
+     */
     public static Fragment[] getFragments(String from) {
         Fragment fragments[] = new Fragment[5];
         fragments[0] = HomePageFragment.newInstance();
         fragments[1] = CircleWrapperFragment.newInstance();
-        fragments[2] = MallHomeFragment.newInstance();
-        fragments[3] = CommonFragment.newInstance("2");
+        fragments[2] = AutoMobileFragment.newInstance();
+        fragments[3] = MallHomeFragment.newInstance();
         fragments[4] = MineFragment.newInstance();
         return fragments;
     }

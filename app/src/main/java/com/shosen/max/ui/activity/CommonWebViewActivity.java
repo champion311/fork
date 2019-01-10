@@ -1,6 +1,5 @@
 package com.shosen.max.ui.activity;
 
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -31,6 +30,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class CommonWebViewActivity extends BaseActivity {
+
+
     @BindView(R.id.iv_back)
     ImageView ivBack;
     @BindView(R.id.tv_head_title)
@@ -43,7 +44,6 @@ public class CommonWebViewActivity extends BaseActivity {
     RelativeLayout rlTopHeader;
     @BindView(R.id.ll_webview_wrapper)
     LinearLayout llWebviewWrapper;
-
     private WebView mWebView;
 
     private String url;
@@ -53,7 +53,7 @@ public class CommonWebViewActivity extends BaseActivity {
     @Override
     protected void initViewAndEvents() {
         StatusBarUtil.setDarkMode(this);
-        StatusBarUtil.setColorNoTranslucent(this,ContextCompat.getColor(this,R.color.home_page_color));
+        StatusBarUtil.setColorNoTranslucent(this, ContextCompat.getColor(this, R.color.home_page_color));
         mWebView = new WebView(getApplicationContext());
         mWebView.setVisibility(View.VISIBLE);
         LinearLayout.LayoutParams layoutParams = new
@@ -107,6 +107,7 @@ public class CommonWebViewActivity extends BaseActivity {
         }
     }
 
+    //
     @OnClick({R.id.iv_back})
     public void onClick(View view) {
         switch (view.getId()) {
@@ -154,4 +155,5 @@ public class CommonWebViewActivity extends BaseActivity {
         }
         return super.onKeyDown(keyCode, event);
     }
+
 }
